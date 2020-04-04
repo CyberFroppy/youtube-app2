@@ -47,7 +47,9 @@ function displayVideos(response, search) {
     let videoTitle = element.snippet.title;
     results.innerHTML += `
     <div class="segment">
-    <img src = ${videoImage} alt="videoThumbnail">  
+    <a href = ${videoLink} target="_blank">
+						<img src = ${videoImage} alt="videoThumbnail">
+		</a> 
     <a href = ${videoLink} target="_blank">
         <p>${videoTitle}</p>
       </a>
