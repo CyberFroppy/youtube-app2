@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+  height: 55px;
+  background: #202020;
+}
+.nav-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+}
+#youtubeLogo {
+  width: 100px;
+  height: 30px;
+}
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-right: auto;
+  margin-left: auto;
+}
+#videoSearch {
+  background: #121212;
+  border: 2px solid #282828;
+  color: white;
+  width: 562px;
+  height: 26px;
+}
+.searchIcon {
+  width: 19px;
+  height: 18px;
+  align-content: center;
+  vertical-align: middle;
+}
+.search-button {
+  text-align: center;
+  background: #313131;
+  border-radius: 2px;
+  width: 50px;
+  height: 26px;
+}
+body {
+  background: #121212;
+}
+.list-videos {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.results > div {
+  margin: 20px auto;
+  border: 2px solid #282828;
+  display: flex;
+}
+.segment {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  background: #313131;
+}
+.segment a {
+  color: white;
+  text-decoration: none;
+}
+.segment a:hover {
+  opacity: 0.5;
+}
+#next,
+#previous {
+  color: white;
+  background: #313131;
+  border: 2px solid #282828;
+  border-radius: 2px;
+  width: 120px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#next:hover,
+#previous:hover {
+  background-color: #7a7575;
+}
+footer {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+.footer-navigation {
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

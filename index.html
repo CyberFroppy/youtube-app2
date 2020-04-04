@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" type="text/css" />
+    <title>YouTube App</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-wrapper">
+          <div class="nav-items">
+            <div class="logo">
+              <img
+                id="youtubeLogo"
+                src="./icons/youtubeLogo.png"
+                alt="YouTube Logo"
+              />
+            </div>
+            <div class="search-bar">
+              <label for="videoSearch"></label>
+              <input type="text" id="videoSearch" placeholder="Search" />
+              <a class="search-button" href="">
+                <img
+                  class="searchIcon"
+                  src="./icons/searchIconGray.svg"
+                  alt="searchIcon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="list-videos">
+      <ul class="results"></ul>
+    </section>
+    <footer>
+      <div class="footer-navigation">
+        <button hidden id="previous" type="submit">
+          Previous Page
+        </button>
+        <button hidden id="next" type="submit">
+          Next Page
+        </button>
+      </div>
+    </footer>
+    <script src="./js/index.js" type="text/javascript"></script>
+  </body>
+</html>
